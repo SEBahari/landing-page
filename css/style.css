@@ -14,12 +14,19 @@ body::-webkit-scrollbar-thumb {
 .my-header {
   min-height: 5rem;
   background-color: #2C3E50;
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
 }
 
 .slide-1 {
-  /*margin-top: 5rem;*/
-  height: 45rem;
+  height: 40rem;
   background-color: #54BD9D;
+}
+
+.slide-1 .avatar{
+  width: 15rem;
 }
 
 .slide-2 {
