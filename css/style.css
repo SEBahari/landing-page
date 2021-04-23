@@ -14,10 +14,11 @@ body::-webkit-scrollbar-thumb {
 .my-header {
   min-height: 5rem;
   background-color: #2C3E50;
-  /*position: fixed;*/
-  /*top: 0;*/
-  /*left: 0;*/
-  /*right: 0;*/
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 .slide-1 {
@@ -30,7 +31,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slide-2 {
-  height: 54rem;
+  /*height: 54rem;*/
   background-color: #fff;
 }
 
